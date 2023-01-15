@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+}
+
+#ball {
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: brown;
+    left: 50%;
+    top: 20px;
+}
+
+#bar-1, #bar-2 {
+    height: 20px;
+    width: 150px;
+    position: fixed;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    left: 50%;
+}
+
+#bar-1 {
+    background-color: seagreen;
+    top: 0;
+}
+
+#bar-2 {
+    background-color: cadetblue;
+    bottom: 0;
+}
